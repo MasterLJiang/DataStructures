@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package Sort;
 
 import java.util.Arrays;
@@ -88,4 +87,3 @@ public class Bubblesort {
         return arr;
     }
 }
->>>>>>> origin/master
