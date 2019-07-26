@@ -39,13 +39,11 @@ public class MergetSort {
         int t = 0;
 
         while (i <= mid && j <= right) {
-            //如果左边的有序序列的当前元素，小于等于右边有序序列的当前元素
-            //即左边的当前元素，填充到temp数组
             if (arr[i] <= arr[j]) {
                 temp[t] = arr[i];
                 t += 1;
                 i += 1;
-            }else {//反之，将右边有序序列的当前元素，填充到temp数组
+            }else {
                 temp[t] = arr[j];
                 t += 1;
                 j += 1;

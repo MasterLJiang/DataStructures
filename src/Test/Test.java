@@ -1,6 +1,9 @@
 package Test;
 
-import Search.InsertValueSearch;
+import Dac.HanoiTower;
+import linkedlist.DoubleLinkedList;
+import linkedlist.LinkList;
+import linkedlist.ListNode;
 
 /**
  * @author Dark
@@ -10,11 +13,6 @@ import Search.InsertValueSearch;
 
 public class Test {
     public static void main(String[] args) {
-        int[] arr = new int[100];
-        for (int i = 0; i < 100; i++) {
-            arr[i] = i + 1;
-        }
-        int index = InsertValueSearch.insertValueSearch(arr, 0, arr.length - 1, 1);
-        System.out.println(index);
+        HanoiTower.hanoiTower(10,'A','B','C');
     }
 }
